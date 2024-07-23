@@ -1,0 +1,85 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.sixth-wrapper{
+    margin: auto;
+    width: 100%;
+}
+@font-face {
+    font-family: abril;
+    src: url(AbrilFatface-Regular.ttf) format("truetype")
+}
+@font-face {
+    font-family: mukta;
+    src: url(MuktaMahee-ExtraLight.ttf) format("truetype")
+}
+.section6{
+    width: 100%; 
+   height: 680px;
+   background-color: #fafafa;
+}
+.customer{
+    font-size: 60px;
+    font-family: "Abril";
+   margin-left: 35%;
+   padding-top: 4%;
+   
+}
+.main2{
+        width: 80%;
+        height: 640px;
+        margin-left: 10%;
+        display: flex;
+}
+.c{
+    width: 380px;
+    height: 550px;
+    margin-left: 10%;
+    margin-top: 5%;
+   
+    
+}
+.girl{
+    border-radius: 3000px;
+    width: 100px;
+    height: 100px;
+
+}
+.r{
+    width: 380px;
+    height: 550px;
+    margin-left: 10%;
+    margin-top: 5%;
+   
+}
+.firstMan{
+    border-radius: 3000px;
+    width: 100px;
+    height: 100px; 
+}
+.j{
+    width: 380px;
+    height: 550px;
+    margin-left: 10%;
+    margin-top: 5%;
+   
+     
+}
+.secondMan{
+    border-radius: 3000px;
+    width: 100px;
+    height: 100px;
+}
+.bio{
+    line-height: 1.8;
+    font-family: "mukta", arial, sans-serif;
+    font-size: 17px;
+    color: #000;
+    font-style: italic;
+    display: block;
+    opacity: 0.7;
+    font-weight: 100px;
+}

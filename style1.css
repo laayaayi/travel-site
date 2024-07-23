@@ -1,0 +1,110 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: abril;
+    src: url(AbrilFatface-Regular.ttf) format("truetype")
+}
+@font-face {
+    font-family: mukta;
+    src: url(MuktaMahee-ExtraLight.ttf) format("truetype")
+}
+.background-image{
+    background-image: url(hero_1.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.wrapper{
+    margin: auto;
+    width: 100%;
+   
+}
+.cover{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(1, 1, 1, 0.2);
+    
+}
+.parent{
+    display: grid;
+    grid-template-columns: 60px 1fr 60px;
+    grid-template-rows: 60px 1fr 60px;
+    gap: 25px;
+    
+   
+}
+.child{
+     display: flex;
+     color: white;
+   opacity: 2;
+   align-items: center;
+   justify-content: center;
+   font-family: abril;
+   
+ 
+}
+.child-2{
+    height: 500px;
+    width: 600px;
+    margin-top:200px;
+    margin-left: 470px;
+    font-family: abril;
+    display: block;
+    font-size: 38px;
+    word-spacing: 10px;
+    
+    
+}
+.central{
+    font-size: 27px;
+   margin-bottom: 100px;
+   font-family: mukta;
+  
+}
+.child-1{
+   font-size: 15px;
+   margin-left: 110px;
+   margin-top: 79px;
+}
+button{
+    letter-spacing: 2px;
+    width: 220px;
+    height: 60px;
+    background-color: rgba(229, 225, 225, 0.2);
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+    margin-left: 180px;
+   
+}
+.child-3{
+    margin-top: 90px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 44px;
+    height: 3px;
+    background-color: white;
+    margin: 8px 0;
+    transition: 0.2s;
+    margin-right: 120px;
+    
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+ 
+
+

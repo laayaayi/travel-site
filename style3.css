@@ -1,0 +1,193 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.third-wrapper{
+    margin: auto;
+    width: 100%;
+}
+@font-face {
+    font-family: abril;
+    src: url(AbrilFatface-Regular.ttf) format("truetype")
+}
+@font-face {
+    font-family: mukta;
+    src: url(MuktaMahee-ExtraLight.ttf) format("truetype")
+}
+.parentt{
+    display: grid;
+    grid-template-columns: 2fr 20px 2fr;
+    grid-template-rows: 2fr 1fr 2fr;
+    grid-template-areas: "a2 a2 a2" "a4 a5 a6" "a7 a8 a9";
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    background: #fafafa;
+}
+.childd{
+    width: 100px;
+    height: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+    overflow: visible;
+}
+  
+.child2{
+ grid-area: a2;
+ width: 700px;
+ height: 100px;
+ display: block;
+ color: black;
+ text-align: center;
+}
+.child2 p{
+    opacity: 0.6;
+    font-size: 20px; 
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: "Mukta Mahee", arial, sans-serif;
+}
+.child2 h1{
+    line-height: 0.8;
+}
+.child4{
+    grid-area: a4;
+    width: 400px;
+    height: 250px;
+    display: block;
+    text-align: center;
+    color: black;
+}
+.child4 img{
+    width: 100px;
+    height: 100px; 
+}
+.child4 p{
+  opacity: 0.4;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  font-family: "Mukta Mahee", arial, sans-serif;
+}
+.child4 h3{
+    font-size: 28px;
+    line-height: 0.5;
+}
+.child5{
+    grid-area: a5;
+    width: 400px;
+    height: 250px;
+    display: block;
+    text-align: center;
+    color: black;
+}
+.child5 img{
+    width: 100px;
+    height: 100px; 
+}
+.child5 p{
+  opacity: 0.4;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  font-family: "Mukta Mahee", arial, sans-serif;
+}
+.child5 h3{
+    font-size: 28px;
+    line-height: 0.5;
+}
+.child6{
+    grid-area: a6;
+    width: 400px;
+    height: 250px;
+    display: block;
+    text-align: center;
+    color: black;
+}
+.child6 img{
+    width: 100px;
+    height: 100px;
+}
+.child6 p{
+  opacity: 0.4;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  font-family: "Mukta Mahee", arial, sans-serif;
+}
+.child6 h3{
+    font-size: 28px;
+    line-height: 0.5;
+}
+.child7{
+    grid-area: a7;
+    width: 400px;
+    height: 200px;
+    display: block;
+    text-align: center;
+    color: black;
+}
+.child7 img{
+    width: 100px;
+    height: 100px;
+}
+.child7 p{
+  opacity: 0.4;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  font-family: "Mukta Mahee", arial, sans-serif;
+}
+.child7 h3{
+    font-size: 28px;
+    line-height: 0.5;
+}
+.child8{
+    grid-area: a8;
+    width: 400px;
+    height: 200px;
+    display: block;
+    text-align: center;
+    color: black;
+}
+.child8 img{
+    width: 100px;
+    height: 100px;
+}
+.child8 p{
+  opacity: 0.4;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  font-family: "Mukta Mahee", arial, sans-serif;
+}
+.child8 h3{
+    font-size: 28px;
+    line-height: 0.5;
+}
+.child9{
+    grid-area: a9;
+    width: 400px;
+    height: 200px;
+    display: block;
+    text-align: center;
+    color: black;
+}
+.child9 img{
+    width: 100px;
+    height: 100px;
+}
+.child9 p{
+  opacity: 0.4;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  font-family: "Mukta Mahee", arial, sans-serif;
+}
+.child9 h3{
+    font-size: 28px;
+    line-height: 0.5;
+}

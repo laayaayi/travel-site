@@ -1,0 +1,61 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: abril;
+    src: url(AbrilFatface-Regular.ttf) format("truetype")
+}
+@font-face {
+    font-family: mukta;
+    src: url(MuktaMahee-ExtraLight.ttf) format("truetype")
+}
+.mainbox{
+    display: flex;
+   align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: baseline;
+    
+    
+}
+.second-wrapper{
+    margin: auto;
+    width: 100%;
+}
+.box1{
+    width:500px;
+    height: 600px;
+    margin: 250px;
+}
+.box2{
+    width: 500px;
+    height: 300px;
+    margin: -250px;
+   padding: 60px;
+   /* font-family: abril; */
+   word-spacing: 3px;
+}
+.box2 h1{
+    font-size: 28px;
+    font-family: "Abril Fatface", times, serif;
+    
+   }
+.box2 p{
+    font-family: "Mukta Mahee", arial, sans-serif; 
+    opacity: 0.4;
+    line-height: 2;
+    font-size: 15px;
+}
+.img1{
+    width:500px;
+    height: 650px;
+
+}
+.fa{
+    color: #65c0ba;
+    margin-top: 50px;
+   font-weight: bold;
+   font-family: "Mukta Mahee", arial, sans-serif;
+}
